@@ -9,7 +9,7 @@ Window.size = (600, 600)
 Window.clearcolor = '#216770'
 
 class MyGcdAndLcm(App):
-    def add_data(self, instance): #считает и добавляет данные в поля
+    def add_data(self, instance): #вычисляет и добавляет данные в поля
         b = []
         a = list(map(int, (self.gl0.text).split()))
         c = set()
@@ -18,7 +18,7 @@ class MyGcdAndLcm(App):
             for j in range(1, max(a)):
                 if a[i] % j == 0:
                     b.append(j)
-        for i in range(len(b)):  # считает количество повторений каждого делителя
+        for i in range(len(b)):  # вычисляет количество повторений каждого делителя
             if b.count(b[i]) == len(a):
                 c.add(b[i])
         for i in range(len(a)):  # считает НОК
