@@ -1,1 +1,1 @@
-  ![Image text](Calculator (2).png)
+  ![Image text](Calculator2.png)
